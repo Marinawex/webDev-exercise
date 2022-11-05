@@ -1,0 +1,47 @@
+body {
+  background-color: #f7efe8;
+}
+h1{
+    padding: 15px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+table {
+  width: 50% ;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  margin: 25px auto;
+  padding: 10px;
+}
+
+thead tr {
+  border-bottom: 1px gray dashed;
+}
+
+th,tfoot td{
+  padding: 10px;
+}
+
+tbody td{
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+tfoot tr {
+  border-top: 1px gray dashed;
+}
+
+.space{
+
+    text-align: center;
+}
+
+.btn{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
